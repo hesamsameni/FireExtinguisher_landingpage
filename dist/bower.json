@@ -1,0 +1,25 @@
+{
+    "name": "HesamSameni",
+    "authors": [
+        "Hesam <hesam.sameni@gmail.com>"
+    ],
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "devDependencies": {
+        "foundation-sites": "^6.4.3",
+        "font-awesome": "^5.0.13"
+    },
+    "dependencies": {
+        "owl.carousel": "^2.3.4",
+        "animate.css": "^3.5.2",
+        "plyr": "^3.3.9",
+        "shufflejs": "^5.1.2"
+    }
+}

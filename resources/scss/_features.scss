@@ -1,0 +1,35 @@
+#features {
+    text-align: center;
+    background-color: $ed;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .title {
+        text-align: center;
+        color: $black;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .features-container {
+        margin: auto;
+        border-radius: 50%;
+        background-color: $red;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        margin-bottom: 30px;
+        .features-image {
+            width: 80px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    .features-title {
+        color: $black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

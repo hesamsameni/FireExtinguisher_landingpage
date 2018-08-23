@@ -1,0 +1,33 @@
+{
+    "name": "HesamSameni",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hesamsameni/FireExtinguisher_landingpage.git"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015": "^6.24.1",
+        "babelify": "^8.0.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-browserify": "^0.5.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssnano": "^2.1.3",
+        "gulp-file-include": "^2.0.1",
+        "gulp-plumber": "^1.2.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-uglify": "^3.0.0",
+        "gulp-uglify-es": "^1.0.4",
+        "gulp-util": "^3.0.8",
+        "node-sass": "^4.9.3",
+        "path": "^0.12.7"
+    }
+}

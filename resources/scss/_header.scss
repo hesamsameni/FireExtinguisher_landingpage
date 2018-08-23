@@ -1,0 +1,66 @@
+nav {
+    background-color: $red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin-left: 30px;
+            a {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: normal;
+                color: $white;
+            }
+        }
+    }
+    .phone_icon {
+        width: 60px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, .4);
+        margin-right: 10px;
+        display: inline-block;
+        img {
+            width: 25px;
+        }
+    }
+    .header_phone {
+        color: $white;
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+#header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    .header_title {
+        font-weight: bold;
+        font-size: 22px;
+        color: $red;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .header_text {
+        font-weight: 100;
+        color: $white;
+        line-height: 2em;
+        text-align: center;
+        width: 600px;
+        margin: 10px auto;
+    }
+}
+
+.callToaction {
+    display: block;
+    padding: 20px 30px;
+    width: 280px;
+    color: $white;
+    background-color: $red;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+}

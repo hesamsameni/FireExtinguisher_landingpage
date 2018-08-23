@@ -1,0 +1,21 @@
+#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #000;
+    .title {
+        text-align: center;
+        color: $white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .about-text {
+        font-weight: 100;
+        color: $white;
+        line-height: 2em;
+        text-align: center;
+        width: 600px;
+        margin: 10px auto;
+    }
+}
