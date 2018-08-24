@@ -3026,6 +3026,15 @@ nav {
 nav ul {
     list-style: none;
     padding: 0
+
+}
+@media (max-width: 425px){
+    nav ul{
+        display: none;
+    }
+    .header_nav{
+        width: 0!important;
+    }
 }
 
 nav ul li {
@@ -3041,10 +3050,14 @@ nav ul li a {
 }
 
 nav .phone_icon {
-    width: 60px;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 25px;
     margin-right: 10px;
+}
+@media (max-width: 425px){
+    nav .phone_icon{
+        padding-top: 10px;
+    }
 }
 
 nav .phone_icon img {
@@ -3069,7 +3082,7 @@ nav .header_phone {
 }
 @media (max-width: 425px){
     .header_img{
-        width: 300px;
+        width: 280px;
     }
     
 }
@@ -3097,7 +3110,7 @@ nav .header_phone {
 
 .callToaction {
     display: block;
-    padding: 15px 20px;
+    padding: 20px 25px;
     width: 300px;
     color: #fdfdfd;
     background-color: #f44;
@@ -3105,8 +3118,16 @@ nav .header_phone {
     font-size: 16px;
     margin: 20px auto;
     border-radius: 15px;
-}
+    transition: all 300ms ease;
+    border: 1px solid #fdfdfd;
 
+}
+.callToaction:hover{
+    color: #f44;
+    background-color: #fdfdfd;
+    border: 1px solid #f44;
+
+}
 #features {
     text-align: center;
     background-color: #ededed;
@@ -3144,14 +3165,16 @@ nav .header_phone {
 #features .features-title {
     color: #363434;
     font-weight: 700;
-    font-size: 18px
+    font-size: 18px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 #about {
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)), url(../img/firefighter.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)), url(../img/aboutus-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -3172,6 +3195,14 @@ nav .header_phone {
     text-align: right;
     width: 600px;
     margin: 10px auto
+
+}
+@media (max-width: 425px){
+    #about .about-text{
+        width: 280px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 #products {
@@ -3190,11 +3221,11 @@ nav .header_phone {
 
 #products .product-container {
     background-color: #fff;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
     margin-bottom: 30px;
     border-radius: 15px;
     margin: 60px;
-    border: 2px solid rgb(179, 179, 179);
+    border: 2px solid rgb(202, 202, 202);
 }
 
 #products .product-container img {
@@ -3202,7 +3233,23 @@ nav .header_phone {
     margin-left: 5px;
     width: 250px;
     border-radius: 0 15px 15px 0;
-    box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.47);
+    box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.4);
+}
+@media (max-width: 768px){
+    #products .product-container img {
+        border-radius: 15px;
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 425px){
+    #products .product-container img {
+        border-radius: 15px;
+        float: right;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 #products .product-container .product-title {
@@ -3218,14 +3265,15 @@ nav .header_phone {
 #products .product-container .product-desc {
     color: #363434;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 2em;
     text-align: right;
     padding-right: 10px;
     padding-left: 30px;
 }
 .products_cta {
     display: block;
-    padding: 15px 20px;
+    padding: 20px 25px;
     width: 300px;
     color: #fdfdfd;
     background-color: #f44;
@@ -3233,6 +3281,15 @@ nav .header_phone {
     font-size: 16px;
     margin: 20px auto;
     border-radius: 15px;
+    transition: all 300ms ease;
+border: 1px solid #fdfdfd;
+}
+
+.products_cta:hover{
+color: #f44;
+background-color: #fdfdfd;
+border: 1px solid #f44;
+
 }
 
 footer {

@@ -1,1 +1,9 @@
-!function t(i,u,f){function c(e,r){if(!u[e]){if(!i[e]){var n="function"==typeof require&&require;if(!r&&n)return n(e,!0);if(a)return a(e,!0);throw new Error("Cannot find module '"+e+"'")}var o=u[e]={exports:{}};i[e][0].call(o.exports,function(r){var n=i[e][1][r];return c(n||r)},o,o.exports,t,i,u,f)}return u[e].exports}for(var a="function"==typeof require&&require,r=0;r<f.length;r++)c(f[r]);return c}({1:[function(r,n,e){$(".hesam").click(function(){console.log("HESAM SAMENI HESAM SAMENI")})},{}]},{},[1]);
+$('.headerButton').on('click',function(){
+    if ($(window).width() > 768) {
+        alert('برای مشاوره و خرید با شماره 26711125 - 021  تماس بگیرید');
+     }
+     else {
+     }
+
+})
+
