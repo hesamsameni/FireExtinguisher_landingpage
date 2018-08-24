@@ -3234,6 +3234,7 @@ nav .header_phone {
     width: 250px;
     border-radius: 0 15px 15px 0;
     box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.4);
+    border-right: 10px solid #f44;
 }
 @media (max-width: 768px){
     #products .product-container img {
@@ -3249,7 +3250,11 @@ nav .header_phone {
         float: right;
         margin: 0;
         width: 100%;
+        
     }
+}
+hr{
+    border: 1px solid #ededed;
 }
 
 #products .product-container .product-title {
